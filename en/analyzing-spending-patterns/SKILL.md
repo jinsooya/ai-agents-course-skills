@@ -1,6 +1,6 @@
 ---
 name: analyzing-spending-patterns
-description: Analyze spending patterns in the Marketing Campaign customer data: spending distribution by product group, spending by customer characteristics, correlations between product groups, and a profile of high spenders. Use when the user asks for spending pattern analysis, spending by product group, high spenders, or spending comparisons by income, age, or education.
+description: Analyze spending patterns in the Marketing Campaign customer data, covering spending distribution by product group, spending by customer characteristics, correlations between product groups, and a profile of high spenders. Use when the user asks for spending pattern analysis, spending by product group, high spenders, or spending comparisons by income, age, or education.
 ---
 
 # Spending Pattern Analysis

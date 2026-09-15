@@ -1,6 +1,6 @@
 ---
 name: analyzing-channel-preference
-description: Analyze purchase channel preference in the Marketing Campaign customer data: usage of the web, catalog, store, and deal channels, channel preference by customer characteristics, channel combination patterns, and high-value customers per channel. Use when the user asks for channel preference, purchase channel analysis, web conversion rate, multichannel customers, or channel optimization strategies.
+description: Analyze purchase channel preference in the Marketing Campaign customer data, covering usage of the web, catalog, store, and deal channels, channel preference by customer characteristics, channel combination patterns, and high-value customers per channel. Use when the user asks for channel preference, purchase channel analysis, web conversion rate, multichannel customers, or channel optimization strategies.
 ---
 
 # Channel Preference Analysis

@@ -1,6 +1,6 @@
 ---
 name: analyzing-us-colleges
-description: Analyze the US College data: compare private and public colleges, analyze admission competitiveness, segment colleges with K-Means, predict graduation rate with RandomForest, and recommend strategies by college type. Use when the user asks for US college data analysis, private versus public comparison, acceptance rate analysis, graduation rate prediction, or college type classification.
+description: Analyze the US College data by comparing private and public colleges, analyze admission competitiveness, segment colleges with K-Means, predict graduation rate with RandomForest, and recommend strategies by college type. Use when the user asks for US college data analysis, private versus public comparison, acceptance rate analysis, graduation rate prediction, or college type classification.
 ---
 
 # US College Data Analysis

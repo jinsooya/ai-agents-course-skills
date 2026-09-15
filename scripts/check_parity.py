@@ -6,14 +6,20 @@ Run from the repository root:
 
 Checks performed:
 1. ko/ and en/ contain the same skill folders.
-2. Every SKILL.md has YAML frontmatter whose `name` equals its folder name and
-   whose `description` is non-empty and at most 1024 characters.
+2. Every SKILL.md has YAML frontmatter that parses (when PyYAML is installed),
+   whose `name` equals its folder name and whose `description` is non-empty and
+   at most 1024 characters.
 3. Every skill folder has a manifest.txt that lists exactly the files present
    (excluding manifest.txt itself).
 """
 import re
 import sys
 from pathlib import Path
+
+try:
+    import yaml
+except ImportError:  # pragma: no cover
+    yaml = None
 
 ROOT = Path(__file__).resolve().parent.parent
 LANGS = ['ko', 'en']
@@ -45,7 +51,14 @@ def main() -> int:
             if not skill_md.exists():
                 errors.append(f'{lang}/{skill_dir.name}: SKILL.md missing')
                 continue
-            fm = frontmatter(skill_md.read_text(encoding='utf-8'))
+            text = skill_md.read_text(encoding='utf-8')
+            fm = frontmatter(text)
+            if yaml is not None:
+                m = re.match(r'^---\n(.*?)\n---\n', text, re.S)
+                try:
+                    yaml.safe_load(m.group(1)) if m else None
+                except yaml.YAMLError as exc:
+                    errors.append(f'{lang}/{skill_dir.name}: frontmatter is not valid YAML ({exc.__class__.__name__})')
             if fm.get('name') != skill_dir.name:
                 errors.append(f'{lang}/{skill_dir.name}: name {fm.get("name")!r} != folder name')
             if not NAME_RE.match(skill_dir.name) or len(skill_dir.name) > 64:

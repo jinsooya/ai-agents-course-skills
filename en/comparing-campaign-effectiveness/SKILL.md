@@ -1,6 +1,6 @@
 ---
 name: comparing-campaign-effectiveness
-description: Compare campaign effectiveness in the Marketing Campaign customer data: acceptance rate per campaign, acceptance patterns, response rates by customer characteristics, and a profile of customers who accepted multiple campaigns. Use when the user asks for campaign effectiveness comparison, campaign acceptance rates, campaign response analysis, or future campaign strategies.
+description: Compare campaign effectiveness in the Marketing Campaign customer data, covering acceptance rate per campaign, acceptance patterns, response rates by customer characteristics, and a profile of customers who accepted multiple campaigns. Use when the user asks for campaign effectiveness comparison, campaign acceptance rates, campaign response analysis, or future campaign strategies.
 ---
 
 # Campaign Effectiveness Comparison
