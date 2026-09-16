@@ -48,7 +48,7 @@ ai-agents-course-skills/          # 로컬 폴더 이름은 달라도 된다
 | `generating-monthly-sales-report` | Northwind 월간 매출 보고서를 작성한다 | 10-1-09 | O | O |
 | `checking-restock-status` | Northwind 재고 보충 대상을 점검한다 | 10-1-09 | O | O |
 
-> Exercise와 Lab의 답에 해당하는 스킬은 이 공개 저장소에 올리지 않습니다. 예를 들어 `10-1-09s`의 휴면 고객 스킬과 보고서 양식을 참조 파일로 분리한 월간 보고서 스킬은 여기에 없습니다.
+> Exercise와 Lab의 답에 해당하는 스킬은 이 공개 저장소에 올리지 않습니다. 
 
 ## 노트북에서 사용하는 방법
 
