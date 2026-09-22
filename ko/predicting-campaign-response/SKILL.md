@@ -24,7 +24,7 @@ description: Marketing Campaign 고객 데이터로 Response를 타겟으로 하
 
 [변수 해석 — 노트북의 Step 1 참고 메모와 동일하게만 사용]
 - AcceptedCmp1~AcceptedCmp5: 각각 1~5번째 캠페인에서 제안 수락 여부(1/0).
-- Response: 문서상 the last campaign(마지막 캠페인)에서 제안 수락 여부(1/0). 본 실습의 예측 타깃. `AcceptedCmp5`와 동일 사건으로 보지 말 것.
+- Response: 문서상 the last campaign(마지막 캠페인)에서 제안 수락 여부(1/0). 본 실습의 예측 타깃. `AcceptedCmp5`와 동일 사건으로 보지 마세요.
 
 1. 전체 행(고객 수)과 열(변수 수) 개수
 2. 타깃 변수 Response의 분포(수락 및 거절 건수와 비율)

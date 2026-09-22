@@ -1,23 +1,23 @@
 ---
 name: writing-competitor-report
-description: 타겟 세그먼트 안의 경쟁 기업을 선정하고, 서브에이전트가 조사한 기업별 파일을 종합해 경쟁 기업 조사 보고서를 쓸 때 사용한다. Use when selecting competitors and writing the consolidated competitor research report from per-company files.
+description: 타겟 세그먼트 안의 경쟁 기업을 선정하고, 서브에이전트가 조사한 기업별 파일을 종합해 경쟁 기업 조사 보고서를 쓸 때 사용합니다. Use when selecting competitors and writing the consolidated competitor research report from per-company files.
 ---
 
 # 경쟁 기업 조사 보고서
 
 ## 리서치 절차
-- 먼저 write_todos로 경쟁사 선정 및 조사 계획을 수립한 후, 계획에 따라 순차적으로 진행한다.
-- 1단계: 경쟁 기업 후보를 탐색하고, 타겟 세그먼트와의 관련성을 기준으로 3~5개를 선정한다.
-- 2단계: 선정한 기업마다 competitor-researcher 서브에이전트를 task 도구로 한 번씩 호출한다.
-  호출할 때 기업명과 저장 경로 /reports/03-competitors/<기업명-영문-slug>.md 를 함께 전달한다.
-  서브에이전트는 아래 항목을 조사해 파일로 저장한다.
+- 먼저 write_todos로 경쟁사 선정 및 조사 계획을 수립한 후, 계획에 따라 순차적으로 진행합니다.
+- 1단계: 경쟁 기업 후보를 탐색하고, 타겟 세그먼트와의 관련성을 기준으로 3~5개를 선정합니다.
+- 2단계: 선정한 기업마다 competitor-researcher 서브에이전트를 task 도구로 한 번씩 호출합니다.
+  호출할 때 기업명과 저장 경로 /reports/03-competitors/<기업명-영문-slug>.md 를 함께 전달합니다.
+  서브에이전트는 아래 항목을 조사해 파일로 저장합니다.
   + 기업 개요: 설립 배경, 규모, 사업 영역
   + 주요 제품 또는 서비스: 핵심 오퍼링, 가격 정책, 주요 기능
   + 시장 포지셔닝: 브랜드 메시지, 타겟 고객, 포지셔닝 전략
   + 마케팅 및 홍보 활동: 주요 채널, 캠페인 사례, 콘텐츠 전략
   + 최근 동향: 신규 출시, 파트너십, 투자, 인수 합병 등 주요 뉴스
-- 3단계: 저장된 기업별 파일을 read_file로 모두 읽고, 중복 혹은 유사 내용은 제외하고 상호 보완적인 정보 위주로 종합한다.
-- 수집이 완료되면 더 이상 검색하지 않고 즉시 보고서 작성을 시작한다.
+- 3단계: 저장된 기업별 파일을 read_file로 모두 읽고, 중복 혹은 유사 내용은 제외하고 상호 보완적인 정보 위주로 종합합니다.
+- 수집이 완료되면 더 이상 검색하지 않고 즉시 보고서 작성을 시작합니다.
 
 ## 보고서 구조
 1. 요약 (Executive Summary): 경쟁 구도 및 핵심 시사점 3~5줄

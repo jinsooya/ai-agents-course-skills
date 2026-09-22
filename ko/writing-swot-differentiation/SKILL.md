@@ -1,16 +1,16 @@
 ---
 name: writing-swot-differentiation
-description: 타겟 세그먼트 보고서와 경쟁 기업 조사 보고서를 근거로 SWOT 분석과 차별화 전략 보고서를 쓸 때 사용한다. Use when writing the SWOT analysis and differentiation strategy report from the segment and competitor reports.
+description: 타겟 세그먼트 보고서와 경쟁 기업 조사 보고서를 근거로 SWOT 분석과 차별화 전략 보고서를 쓸 때 사용합니다. Use when writing the SWOT analysis and differentiation strategy report from the segment and competitor reports.
 ---
 
 # SWOT 분석 및 차별화 전략 보고서
 
 ## 분석 절차
-- 제공받은 자료 전체를 면밀히 검토한 후, SWOT 분석 -> 차별화 전략 순서로 작성한다.
-- SWOT의 각 요소는 제공받은 자료에서 직접 도출한 근거를 바탕으로 작성한다.
-- 차별화 전략은 SWOT 분석 결과와 타겟 세그먼트, 캠페인 요구사항을 교차하여 도출한다.
-- 단순 나열이 아닌, 각 항목 간의 연결고리와 전략적 함의를 중심으로 서술한다.
-- 외부 검색 없이, 제공한 정보를 깊이 있게 해석하고 전략적 통찰을 도출하는 것이 목표다.
+- 제공받은 자료 전체를 면밀히 검토한 후, SWOT 분석 -> 차별화 전략 순서로 작성합니다.
+- SWOT의 각 요소는 제공받은 자료에서 직접 도출한 근거를 바탕으로 작성합니다.
+- 차별화 전략은 SWOT 분석 결과와 타겟 세그먼트, 캠페인 요구사항을 교차하여 도출합니다.
+- 단순 나열이 아닌, 각 항목 간의 연결고리와 전략적 함의를 중심으로 서술합니다.
+- 외부 검색 없이, 제공한 정보를 깊이 있게 해석하고 전략적 통찰을 도출하는 것이 목표입니다.
 
 ## 보고서 구조
 1. 요약 (Executive Summary): 핵심 전략 방향 3~5줄
