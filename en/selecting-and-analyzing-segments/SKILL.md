@@ -5,7 +5,7 @@ description: Use when selecting target market and customer segment candidates, o
 
 # Segment Candidate Selection and Segment Analysis Report
 
-## Candidate output format (step 1)
+## Candidate output format
 Write each segment in the format below.
 
 **Segment N: [segment name]**
@@ -24,7 +24,7 @@ Prohibited
 - Selecting segments unrelated to the company information
 - Writing speculative numbers without a source
 
-## Segment analysis report structure (step 2)
+## Segment analysis report structure
 Research procedure
 - First plan the research per segment with write_todos, then research sequentially according to the plan.
 - For each segment, focus on the items below.

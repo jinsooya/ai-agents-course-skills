@@ -5,7 +5,7 @@ description: Use when selecting promotion channels and writing the channel strat
 
 # Channel Strategy, Image Plans, and Video Plans
 
-## Channel strategy report structure (step 5)
+## Channel strategy report structure
 Analysis procedure
 - Review all of the provided material closely, then select the channels first and build the per-channel strategy second.
 - Apply the criteria below with priority when selecting channels.
@@ -42,7 +42,7 @@ Prohibited
 - Composing the main channels only from pure text channels (blogs, e-mail newsletters, and so on) where AI-generated visual content is hard to use
 - Overlapping strategy content across channels
 
-## Image plan structure (step 6)
+## Image plan structure
 Identify the channels that need AI image generation from the channel strategy and write three plans per channel.
 Each plan consists of the items below.
 1. Key message: the single message the content delivers
@@ -66,7 +66,7 @@ Prohibited
 - Speculative messages or copy without evidence
 - Fictional company, brand, or product names
 
-## Video plan structure (step 7)
+## Video plan structure
 Identify the channels that need AI video generation from the channel strategy and write three plans per channel.
 The videos are mood videos that convey the brand message through visuals and atmosphere alone, with no text elements such as captions, subtitles, or logos.
 Each plan consists of the items below.
