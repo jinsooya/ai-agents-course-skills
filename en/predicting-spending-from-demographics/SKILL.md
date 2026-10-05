@@ -67,7 +67,7 @@ Build the four charts below as a 2×2 subplot grid.
 1. (top left) Scatter plot of actual versus predicted values (x: actual MntTotal, y: predicted MntTotal, with a diagonal reference line)
 2. (top right) Histogram of the residuals (residual = actual - predicted), to check closeness to a normal distribution
 3. (bottom left) Horizontal bar chart of the top 10 feature importances
-4. (bottom right) Bar chart comparing mean actual and predicted spending by income group
+4. (bottom right) Bar chart comparing mean actual and predicted spending by income group on the test set (income groups: `pandas.qcut(Income, q=4, labels=['Q1', 'Q2', 'Q3', 'Q4'])`)
 
 **Step 6: Predict spending and apply the model** - Use the trained model to predict spending.
 

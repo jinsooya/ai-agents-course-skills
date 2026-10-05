@@ -13,7 +13,7 @@ description: python_execute 도구 안에서 matplotlib pyplot과 seaborn으로 
 2. seaborn은 `pyplot`이 만든 figure와 axes 위에서 사용합니다. `ax=` 전달인자로 axes를 지정합니다.
 3. 차트를 완성하면 마지막에 `pyplot.show()`를 호출합니다.
 4. `matplotlib.figure.Figure`를 단독으로 만들어 그리지 않습니다. 자동 저장과 노트북 표시가 누락됩니다.
-5. `savefig()`는 호출하지 않아도 됩니다. 도구가 저장합니다. 직접 저장해야 하면 `RESULT_FOLDER / '<파일명>.png'` 경로만 사용합니다.
+5. `savefig()`를 호출하지 않습니다. 도구가 `pyplot.show()`로 표시한 차트를 모두 PNG로 저장하므로, 다시 저장하면 같은 차트 파일만 중복해서 생깁니다.
 6. `pyplot.close('all')`을 호출하지 않습니다. 호출하면 자동 저장이 누락됩니다.
 7. 차트의 제목, 축 라벨, 범례, 주석은 영어로 작성합니다. 한글 폰트가 없는 환경에서도 정상적으로 표시되도록 하기 위한 것이며, 분석 결과의 해석과 설명은 한국어로 작성합니다.
 8. 여러 차트를 한 번에 그릴 때는 서브플롯으로 구성하고 `pyplot.tight_layout()`을 호출합니다. 2×2 구성이면 `figsize=(14, 10)` 정도를 사용합니다.

@@ -13,7 +13,7 @@ The `python_execute` tool saves the current figure to the result folder as a PNG
 2. Use seaborn on a figure and axes created by `pyplot`, passing the axes through the `ax=` argument.
 3. Call `pyplot.show()` at the end of every chart.
 4. Do not build a standalone `matplotlib.figure.Figure`; the automatic save and the notebook display would be skipped.
-5. You do not need to call `savefig()`; the tool saves the file. If you must save a file yourself, use only a `RESULT_FOLDER / '<name>.png'` path.
+5. Do not call `savefig()`. The tool already saves every chart shown with `pyplot.show()` as a PNG, so saving it again only creates duplicate files.
 6. Do not call `pyplot.close('all')`; it skips the automatic save.
 7. Write chart titles, axis labels, legends, and annotations in English so they render in environments without Korean fonts. Write the interpretation of the results in the language of the request.
 8. When drawing several charts at once, use subplots and call `pyplot.tight_layout()`. A 2×2 grid works well with `figsize=(14, 10)`.
