@@ -78,7 +78,7 @@ Explain the results.
 1. A summary of the findings:
    - two or three key differences between private and public colleges
    - the main factors affecting admission competitiveness
-   - the characteristics of the four college types found with K-Means
+   - the characteristics of each college type (cluster) found with K-Means
    - the top 3 factors determining the graduation rate
 2. Improvement strategies by college type (one or two per cluster):
    what should each cluster improve to raise its graduation rate or educational quality?
