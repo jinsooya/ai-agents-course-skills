@@ -79,7 +79,7 @@ description: Marketing Campaign 고객 데이터로 인구통계 변수로부터
 2. 전체 테스트셋에서 예측 소비금액 상위 20%를 잠재 고가치 고객으로 분류
    - 잠재 고가치 고객의 평균 Income, 평균 Age, Education 최빈값 출력
 3. 결과를 RESULT_FOLDER / 'predicted_spending.csv'로 저장
-   - 포함 컬럼: Income, Age, Education, Marital_Status, Kidhome, Teenhome, MntTotal_실제, MntTotal_예측
+   - 포함 컬럼: Income, Age, Education, Marital_Status, Kidhome, Teenhome, MntTotal_actual, MntTotal_pred
 
 결과를 한국어로 요약하세요.
 

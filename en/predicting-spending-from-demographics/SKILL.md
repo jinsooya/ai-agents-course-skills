@@ -79,7 +79,7 @@ Build the four charts below as a 2×2 subplot grid.
 2. Classify the top 20% by predicted spending in the test set as potential high-value customers
    - print their mean Income, mean Age, and most common Education
 3. Save the result to RESULT_FOLDER / 'predicted_spending.csv'
-   - columns: Income, Age, Education, Marital_Status, Kidhome, Teenhome, MntTotal_실제, MntTotal_예측
+   - columns: Income, Age, Education, Marital_Status, Kidhome, Teenhome, MntTotal_actual, MntTotal_pred
 
 Summarize the results.
 
