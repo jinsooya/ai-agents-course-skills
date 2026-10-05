@@ -40,10 +40,14 @@ description: Marketing Campaign 고객 데이터로 Response를 타겟으로 하
    - TotalCampaigns = AcceptedCmp1 + AcceptedCmp2 + AcceptedCmp3 + AcceptedCmp4 + AcceptedCmp5
 2. 전처리:
    - Income 결측치(24건)는 중앙값으로 대체
-   - Education, Marital_Status는 Label Encoding 또는 One-Hot Encoding
+   - Education, Marital_Status는 `pandas.get_dummies`로 One-Hot Encoding (모든 범주 유지, drop_first 사용하지 않음)
    - Marital_Status 이상값('YOLO', 'Absurd', 'Alone')은 'Other'로 통합
    - Year_Birth 이상치(1900년 이전)는 제거
-3. 최종 피처 목록과 타겟 변수(Response)를 확인하고 X, y로 분리하세요.
+3. 아래 36개 피처와 타겟 변수(Response)만 사용하여 X, y로 분리하세요. 다른 컬럼이나 파생 변수를 추가하지 마세요.
+   - 수치형 (21개): Income, Kidhome, Teenhome, Recency, MntWines, MntFruits, MntMeatProducts, MntFishProducts, MntSweetProducts, MntGoldProds, NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases, NumWebVisitsMonth, AcceptedCmp1, AcceptedCmp2, AcceptedCmp3, AcceptedCmp4, AcceptedCmp5, Complain
+   - 파생 변수 (4개): Age, TotalSpent, TotalPurchases, TotalCampaigns
+   - 원핫 인코딩 (11개): Education 5개 컬럼, Marital_Status 6개 컬럼
+   - 사용하지 않는 컬럼: ID, Year_Birth (Age로 대체), Dt_Customer, Country
 
 **3단계: 학습/테스트 분리 및 클래스 불균형 처리** - 학습/테스트 데이터 분리와 클래스 불균형 처리를 수행해 주시기 바랍니다.
 

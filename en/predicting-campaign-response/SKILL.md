@@ -40,10 +40,14 @@ Interpret and describe the campaign columns (`AcceptedCmp1` to `AcceptedCmp5`, `
    - TotalCampaigns = AcceptedCmp1 + AcceptedCmp2 + AcceptedCmp3 + AcceptedCmp4 + AcceptedCmp5
 2. Preprocessing:
    - Replace the 24 missing Income values with the median
-   - Label-encode or one-hot-encode Education and Marital_Status
+   - One-hot-encode Education and Marital_Status with `pandas.get_dummies` (keep every category; do not use drop_first)
    - Merge the Marital_Status anomalies ('YOLO', 'Absurd', 'Alone') into 'Other'
    - Drop Year_Birth outliers (before 1900)
-3. Confirm the final feature list and the target (Response), then split into X and y.
+3. Use exactly these 36 features and the target (Response), then split into X and y. Do not add other columns or derived variables.
+   - numeric (21): Income, Kidhome, Teenhome, Recency, MntWines, MntFruits, MntMeatProducts, MntFishProducts, MntSweetProducts, MntGoldProds, NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases, NumWebVisitsMonth, AcceptedCmp1, AcceptedCmp2, AcceptedCmp3, AcceptedCmp4, AcceptedCmp5, Complain
+   - derived (4): Age, TotalSpent, TotalPurchases, TotalCampaigns
+   - one-hot (11): the 5 Education columns and the 6 Marital_Status columns
+   - not used: ID, Year_Birth (replaced by Age), Dt_Customer, Country
 
 **Step 3: Train/test split and class imbalance handling** - Split the data and handle the class imbalance.
 
