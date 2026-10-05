@@ -32,7 +32,7 @@ description: Marketing Campaign 고객 데이터로 인구통계 변수로부터
 4. 결측치 처리: Income 결측치를 중위수로 대체
 5. 범주형 변수 정리:
    - Marital_Status: Alone, YOLO, Absurd -> Single로 통합
-   - Education: Basic -> 기초, Graduation -> 학사, Master -> 석사, PhD -> 박사, 2n Cycle -> 학사로 매핑
+   - Education: 2n Cycle -> Graduation으로 매핑하고, 나머지 값(Basic, Graduation, Master, PhD)은 그대로 유지
 6. 원-핫 인코딩: Education, Marital_Status (drop_first=True)
 7. 최종 피처 목록과 데이터 크기 출력
 
@@ -72,9 +72,9 @@ description: Marketing Campaign 고객 데이터로 인구통계 변수로부터
 **6단계: 소비금액 예측 및 활용** - 학습된 모델을 활용하여 소비금액을 예측하세요.
 
 1. 가상 신규 고객 3명의 예상 소비금액 예측
-   - 고객 A: Income=80000, Age=45, Education=박사, Marital_Status=Married, Kidhome=0, Teenhome=1
-   - 고객 B: Income=30000, Age=35, Education=학사, Marital_Status=Single, Kidhome=1, Teenhome=0
-   - 고객 C: Income=55000, Age=55, Education=석사, Marital_Status=Married, Kidhome=0, Teenhome=0
+   - 고객 A: Income=80000, Age=45, Education=PhD, Marital_Status=Married, Kidhome=0, Teenhome=1
+   - 고객 B: Income=30000, Age=35, Education=Graduation, Marital_Status=Single, Kidhome=1, Teenhome=0
+   - 고객 C: Income=55000, Age=55, Education=Master, Marital_Status=Married, Kidhome=0, Teenhome=0
    - 3명의 예측 소비금액을 표로 출력
 2. 전체 테스트셋에서 예측 소비금액 상위 20%를 잠재 고가치 고객으로 분류
    - 잠재 고가치 고객의 평균 Income, 평균 Age, Education 최빈값 출력

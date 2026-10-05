@@ -32,7 +32,7 @@ Print the results as tidy tables and summarize the notable characteristics of th
 4. Missing values: replace missing Income with the median
 5. Categorical cleanup:
    - Marital_Status: merge Alone, YOLO, Absurd into Single
-   - Education: map Basic -> 기초, Graduation -> 학사, Master -> 석사, PhD -> 박사, 2n Cycle -> 학사
+   - Education: map 2n Cycle -> Graduation and keep the other values (Basic, Graduation, Master, PhD) as they are
 6. One-hot encoding: Education, Marital_Status (drop_first=True)
 7. Print the final feature list and the data size
 
@@ -72,9 +72,9 @@ Build the four charts below as a 2×2 subplot grid.
 **Step 6: Predict spending and apply the model** - Use the trained model to predict spending.
 
 1. Predict the expected spending of three hypothetical new customers
-   - Customer A: Income=80000, Age=45, Education=박사, Marital_Status=Married, Kidhome=0, Teenhome=1
-   - Customer B: Income=30000, Age=35, Education=학사, Marital_Status=Single, Kidhome=1, Teenhome=0
-   - Customer C: Income=55000, Age=55, Education=석사, Marital_Status=Married, Kidhome=0, Teenhome=0
+   - Customer A: Income=80000, Age=45, Education=PhD, Marital_Status=Married, Kidhome=0, Teenhome=1
+   - Customer B: Income=30000, Age=35, Education=Graduation, Marital_Status=Single, Kidhome=1, Teenhome=0
+   - Customer C: Income=55000, Age=55, Education=Master, Marital_Status=Married, Kidhome=0, Teenhome=0
    - print the three predictions as a table
 2. Classify the top 20% by predicted spending in the test set as potential high-value customers
    - print their mean Income, mean Age, and most common Education
