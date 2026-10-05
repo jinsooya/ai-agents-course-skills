@@ -89,7 +89,7 @@ description: Marketing Campaign 고객 데이터로 캠페인별 수락률, 수�
    - 평균 Income, 평균 나이, 자녀 있는 비율(%)
    - 평균 총소비금액(MntWines+MntFruits+MntMeatProducts+MntFishProducts+MntSweetProducts+MntGoldProds)
    - 주요 구매 채널(NumWebPurchases, NumCatalogPurchases, NumStorePurchases 평균)
-3. 고반응 고객(TotalAccepted >= 2) 목록 상위 20명 출력 (총수락수 내림차순)
+3. 고반응 그룹 고객 목록 상위 20명 출력 (총수락수 내림차순)
 4. 결과를 RESULT_FOLDER / 'campaign_response_profile.csv'로 저장
    - 포함 컬럼: TotalAccepted, 반응그룹, Income, Age, Education, 총소비금액, 캠페인 6개 컬럼
 

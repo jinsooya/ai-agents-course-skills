@@ -41,7 +41,7 @@ Compute the following by Customer ID.
    - clv = aov × purchase_freq × lifespan_years
 3. Customer tiers by CLV:
    - Platinum: top 10%
-   - Gold: top 10% to 30%
+   - Gold: the rest of the top 30% (customers below Platinum)
    - Silver: top 30% to 60%
    - Bronze: bottom 40%
 4. Print a table with the customer count, mean CLV, and mean total_sales per tier.

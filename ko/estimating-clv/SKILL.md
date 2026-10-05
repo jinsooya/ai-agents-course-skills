@@ -41,7 +41,7 @@ Customer ID 기준으로 다음을 계산하세요.
    - clv = aov × purchase_freq × lifespan_years
 3. CLV 기준 고객 등급 분류:
    - Platinum: 상위 10%
-   - Gold: 상위 10~30%
+   - Gold: 상위 30% 중 Platinum을 제외한 고객
    - Silver: 상위 30~60%
    - Bronze: 하위 40%
 4. 등급별 고객 수, 평균 CLV, 평균 total_sales를 표로 출력하세요.

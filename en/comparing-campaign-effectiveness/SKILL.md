@@ -89,7 +89,7 @@ Build the four charts below as a 2×2 subplot grid.
    - mean Income, mean age, share (%) with children
    - mean total spending (MntWines + MntFruits + MntMeatProducts + MntFishProducts + MntSweetProducts + MntGoldProds)
    - main purchase channels (mean NumWebPurchases, NumCatalogPurchases, NumStorePurchases)
-3. The top 20 high-response customers (TotalAccepted >= 2) sorted by total accepted, descending
+3. The top 20 customers of the high response group, sorted by total accepted, descending
 4. Save the result to RESULT_FOLDER / 'campaign_response_profile.csv'
    - columns: TotalAccepted, response group, Income, Age, Education, total spending, the six campaign columns
 
