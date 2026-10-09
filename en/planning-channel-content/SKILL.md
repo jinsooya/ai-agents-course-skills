@@ -53,7 +53,7 @@ Each plan consists of the items below.
    - Reflect the visual concept, colors, composition, mood, and style concretely
    - Include the headline text directly in the prompt in the language of the request
    - Always state the company name, brand name, and product name
-   - Show the advertised product (for example the vehicle's exterior or interior) as the main subject of each image. Do not make mood images that leave the product out
+   - Show the advertised product as the main subject of each image. For a vehicle, the exterior must be visible and recognizable in every image (the whole body or a clearly identifiable part); an interior-only composition is not allowed
    - Specify a composition that fits the channel's recommended format and size (for example vertical 9:16, square 1:1)
 
 Output rules
@@ -83,6 +83,7 @@ Each plan consists of the items below.
      + Color and lighting: overall tone, contrast, color temperature
      + Mood and style: the mood and genre feel of the video (for example cinematic, minimal, dynamic)
      + Always state the company name, brand name, and product name
+   - Show the advertised product as the main subject; for a vehicle, include at least one shot in which the exterior is clearly visible
 
 Output rules
 - Output language: the language of the request (write only the video generation prompts in English)
