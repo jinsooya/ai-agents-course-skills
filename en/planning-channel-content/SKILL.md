@@ -54,8 +54,10 @@ Each plan consists of the items below.
    - Include the headline text directly in the prompt in the language of the request
    - Always state the company name, brand name, and product name
    - Show the advertised product as the main subject of each image. When the advertised product is a vehicle, the exterior must be visible and recognizable in every image (the whole body or a clearly identifiable part); an interior-only composition is not allowed. When the advertised product is a component or part, show the component itself as the main subject; a vehicle may appear only as background or context
-   - Keep the product's body type and category exactly as given in the company information (for example a mid-size SUV), and state in the prompt that it must not resemble an existing model or a competitor's product (for example 'must not resemble any existing production model such as <competitor model>')
+   - Keep the product's form and category exactly as given in the company information (for example a mid-size SUV, or an integrated thermal management module), and state in the prompt that it must not resemble an existing model or a competitor's product (for example 'must not resemble any existing production model such as <competitor model>')
    - Render no text other than the headline: keep license plates blank, and put no model names, badges, or logos on the product
+   - Do not render charts, graphs, numbers, or screens showing data; leave empty space where verified figures will be added later
+   - Vehicles that appear only as context (for example the customer's buses or trucks in a parts campaign) must be generic and unbranded and must not resemble a specific manufacturer's model
    - Specify a composition that fits the channel's recommended format and size (for example vertical 9:16, square 1:1)
 
 Output rules
@@ -86,7 +88,8 @@ Each plan consists of the items below.
      + Mood and style: the mood and genre feel of the video (for example cinematic, minimal, dynamic)
      + Always state the company name, brand name, and product name
    - Show the advertised product as the main subject; when the product is a vehicle, include at least one shot in which the exterior is clearly visible, and when it is a component or part, include at least one shot in which the component itself is clearly visible
-   - Keep the product's body type and category exactly as given in the company information, and state in the prompt that it must not resemble an existing model or a competitor's product
+   - Keep the product's form and category exactly as given in the company information, and state in the prompt that it must not resemble an existing model or a competitor's product
+   - Do not show charts, graphs, numbers, or screens showing data; vehicles that appear only as context must be generic and unbranded
 
 Output rules
 - Output language: the language of the request (write only the video generation prompts in English)
