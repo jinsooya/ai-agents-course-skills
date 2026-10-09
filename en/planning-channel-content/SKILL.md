@@ -51,7 +51,7 @@ Each plan consists of the items below.
 4. Copywriting: headline / sub-copy / CTA
 5. Image generation prompt
    - Reflect the visual concept, colors, composition, mood, and style concretely
-   - Include the headline text directly in the prompt in the language of the request
+   - Include the headline text directly in the prompt in the language of the request, and state that it is rendered without quotation marks (for example 'render the headline without quotation marks')
    - Always state the company name, brand name, and product name
    - Show the advertised product as the main subject of each image. When the advertised product is a vehicle, the exterior must be visible and recognizable in every image (the whole body or a clearly identifiable part); an interior-only composition is not allowed. When the advertised product is a component or part, show the component itself as the main subject; a vehicle may appear only as background or context
    - Keep the product's form and category exactly as given in the company information (for example a mid-size SUV, or an integrated thermal management module), and state in the prompt that it must not resemble an existing model or a competitor's product (for example 'must not resemble any existing production model such as <competitor model>')
