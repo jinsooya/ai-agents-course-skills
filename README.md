@@ -45,12 +45,14 @@ ai-agents-course-skills/          # 로컬 폴더 이름은 달라도 된다
 | `writing-competitor-report` | 서브에이전트 조사 결과를 종합한 경쟁 기업 조사 보고서 | 14-1, 14-2 | O | O |
 | `writing-swot-differentiation` | SWOT 분석과 차별화 전략 보고서 | 14-1, 14-2 | O | O |
 | `planning-channel-content` | 채널 전략, 이미지 기획안, 영상 기획안 | 14-1, 14-2 | O | O |
-| `analyzing-company-disclosures` | 반기보고서와 실적발표 자료 같은 공시 문서를 계열사와 사업부문별로 분석한다 | CJ-GMP 2026 | O | O |
-| `researching-company-news` | 계열사별 뉴스 검색 계획서와 뉴스 분석 보고서 | CJ-GMP 2026 | O | O |
+| `analyzing-company-disclosures` | 반기보고서와 실적발표 자료 같은 공시 문서를 계열사와 사업부문별로 분석한다 | CJ-GMP 2026, 삼성물산 2026 | O | O |
+| `researching-company-news` | 계열사별 뉴스 검색 계획서와 뉴스 분석 보고서 | CJ-GMP 2026, 삼성물산 2026 | O | O |
 | `writing-company-analysis-report` | 경쟁사 비교 섹션을 포함한 본사 기업 분석 보고서 | CJ-GMP 2026 | O | O |
-| `writing-competitor-threat-report` | 경쟁사 검색 계획서와 경쟁사 위협 분석 보고서 | CJ-GMP 2026 | O | O |
+| `writing-competitor-threat-report` | 경쟁사 검색 계획서와 경쟁사 위협 분석 보고서 | CJ-GMP 2026, 삼성물산 2026 | O | O |
 | `writing-executive-comparison-report` | 경영진 보고용 경쟁사 비교 보고서(단일, 복수)와 이미지 기획안 | CJ-GMP 2026 | O | O |
-| `planning-competitive-scenarios` | 경제지 기사, 경쟁 전략 계획서, 대응 전략, 전략 워게임 | CJ-GMP 2026 | O | O |
+| `planning-competitive-scenarios` | 경제지 기사, 경쟁 전략 계획서, 대응 전략, 전략 워게임 | CJ-GMP 2026, 삼성물산 2026 | O | O |
+| `writing-segment-threat-report` | 사업부문별 위협 검색 계획서, 사업부문 위협 보고서, 위협 분석 종합 보고서 | 삼성물산 2026 | O | O |
+| `writing-business-strategy-report` | 공시, 뉴스, 위협 분석을 종합한 사업 분석 및 전략 보고서와 이미지 기획안 | 삼성물산 2026 | O | O |
 | `generating-monthly-sales-report` | Northwind 월간 매출 보고서를 작성한다 | 10-1-09 | O | O |
 | `checking-restock-status` | Northwind 재고 보충 대상을 점검한다 | 10-1-09 | O | O |
 
