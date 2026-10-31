@@ -1,6 +1,6 @@
 ---
 name: writing-business-strategy-report
-description: Use when consolidating the disclosure, news, and competitive threat analyses into the company's business analysis and strategy report, or when writing image plans and image prompts for the visuals of that report.
+description: Use when consolidating the disclosure, news, and competitive threat analyses into the company's business analysis and strategy report, or when writing image plans and prompts for the visuals of that report and video plans and prompts for its mood videos.
 ---
 
 # Business Analysis and Strategy Report
@@ -37,8 +37,25 @@ description: Use when consolidating the disclosure, news, and competitive threat
   + Do not add excessive text or numeric elements that lower image quality. State that the image contains no text, numbers, charts, graphs, or data screens.
   + State that real company logos, trademarks, and product designs must not be reproduced.
 
+## Video plan structure
+- Input: the business analysis and strategy report
+- Write 3 plans for short mood videos to show with the report in executive briefings, internal sharing, or IR presentations. The videos convey the message through visuals and mood only, without any text elements such as letters, captions, or logos.
+- Each plan has:
+  1. Title: in the form '### 영상 기획안 N: <title>'
+  2. Placement: which section of the report or which briefing moment it is shown in
+  3. Message: the single message the video conveys
+  4. Video format: aspect ratio (16:9 recommended) and scene structure. The generation model decides the length, so keep the flow short, around 8 seconds.
+  5. Mood direction: the overall tone, associated imagery, and how it connects to the report
+  6. Video prompt: one English prompt in a code block under '**Video prompt**'
+- Prompt rules
+  + Write the whole video as one prompt, describing the scene flow and transitions in order.
+  + Cover scene description (elements, background, flow of action), camera movement (angle, shot size, zoom, pan, tracking), color and lighting, and mood and style.
+  + State that the company name and business area are context only and never shown on screen.
+  + State that no frame contains text, captions, titles, logos, watermarks, numbers, charts, graphs, or data screens.
+  + State that real company logos, trademarks, product designs, and real people must not be reproduced. Show people as generic, not as specific individuals.
+
 ## Output rules
-- Output language: Korean; format: Markdown (only the image prompts are in English)
+- Output language: Korean; format: Markdown (only the image and video prompts are in English)
 - Use tables actively, and state the unit (억원, 백만원, etc.) in every table.
 - Use only the input reports and web search results as sources. Mark evidence from an input report as (출처: /reports/<file name>) and evidence from the web as (출처: URL).
 
