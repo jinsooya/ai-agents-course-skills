@@ -7,7 +7,7 @@ description: Use when planning news searches per affiliate and business segment 
 
 ## Search plan structure
 - Input: the disclosure analysis reports (the /reports/ files named in the request)
-- Group the affiliates and business segments into 4-6 research topics, and give each topic an English slug (e.g., cj-cheiljedang, cj-logistics, cj-oliveyoung, cj-enm, holding-and-others).
+- Group the affiliates or business segments into 4-6 research topics, and give each topic an English slug. Use only lowercase English letters and hyphens, keep the slug a short English name of the affiliate or segment, and name a topic that groups the rest like `holding-and-others`. If the request gives slug examples, follow them.
 - For each topic, write:
   + Key issues: 2-3 changes found in the disclosure analysis reports
   + Search queries: 2-3 (Korean or English)
@@ -32,7 +32,7 @@ description: Use when planning news searches per affiliate and business segment 
 - Write it after reading all the saved per-topic files with read_file.
 1. Summary: key recent issues in 3-5 lines
 2. Key news per topic (repeat for each topic): key issues, article summaries, and the link to the disclosures
-3. Group-wide common issues: trends that span several affiliates
+3. Company-wide common issues: trends that span several affiliates or business segments
 4. References: article titles and URLs
 
 ## Output rules

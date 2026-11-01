@@ -1,6 +1,6 @@
 ---
 name: writing-competitor-threat-report
-description: 경쟁사 한 곳의 최근 동향과 본사 그룹 및 계열사에 대한 잠재적 위협을 분석하기 위한 웹 검색 계획서를 세우거나, 경쟁사 위협 분석 보고서를 작성할 때 사용합니다. Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the group and its affiliates.
+description: 경쟁사 한 곳의 최근 동향과 본사와 관련 계열사 또는 사업부문에 대한 잠재적 위협을 분석하기 위한 웹 검색 계획서를 세우거나, 경쟁사 위협 분석 보고서를 작성할 때 사용합니다. Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the group and its affiliates.
 ---
 
 # 경쟁사 위협 분석
@@ -13,8 +13,8 @@ description: 경쟁사 한 곳의 최근 동향과 본사 그룹 및 계열사�
   3. 가격 정책 및 프로모션 변화
   4. 투자, 제휴, 인수, 해외 진출, 생산능력 확대 여부
   5. 시장 반응, 소비자 반응, 실적 또는 점유 관련 시사점
-  6. 본사 그룹 및 계열사에 대한 잠재적 위협
-  7. 본사 그룹 및 계열사의 대응 시사점
+  6. 본사와 관련 계열사 또는 사업부문에 대한 잠재적 위협
+  7. 본사와 관련 계열사 또는 사업부문의 대응 시사점
 - 마지막에 목차 / 검색어 / 검색 목적 3열 표로 정리합니다.
 - 이 단계에서는 웹 검색을 하지 않습니다.
 
@@ -30,8 +30,8 @@ description: 경쟁사 한 곳의 최근 동향과 본사 그룹 및 계열사�
 3. 제품/서비스/채널/유통 전략 분석
 4. 가격/프로모션/브랜드 전략 분석
 5. 투자/제휴/생산/해외확장 동향
-6. 본사 그룹 및 계열사에 대한 잠재적 위협
-7. 본사 그룹 및 계열사 차원의 대응 시사점
+6. 본사와 관련 계열사 또는 사업부문에 대한 잠재적 위협
+7. 본사와 관련 계열사 또는 사업부문 차원의 대응 시사점
 8. 참고 출처 목록
 
 마지막에는 위협 영역 / 위협 수준(상/중/하) / 근거 / 본사 시사점 4열 표를 넣습니다.

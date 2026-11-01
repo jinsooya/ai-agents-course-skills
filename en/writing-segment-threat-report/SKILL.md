@@ -7,7 +7,7 @@ description: Use when planning threat searches per business segment of a multi-s
 
 ## Threat search plan structure
 - Input: the company's disclosure analysis report (the /reports/ file named in the request)
-- Group the issues that could threaten the company into 3-5 topics by business segment, and give each topic an English slug. (e.g., construction, trading, bio, fashion-resort, food)
+- Group the issues that could threaten the company into 3-5 topics by business segment, and give each topic an English slug. Use only lowercase English letters and hyphens, and keep the slug a short English name of the segment. If the request gives slug examples, follow them.
 - For each topic, write:
   + Target business segment
   + Main competitor candidates: list competitors named in the disclosure analysis report first; if none is named, write '검색으로 확인' (to be confirmed by search)

@@ -14,7 +14,7 @@ description: Use when reading a corporate disclosure document (half-year, quarte
 
 ## Periodic report (half-year, quarterly, or annual report) analysis structure
 1. Summary: reporting period, key consolidated results, and the most important changes in 3-5 lines
-2. Group overview and business structure: the holding company, major affiliates, and business segments
+2. Company overview and business structure: the major affiliates if the company is a holding company, or the business segments and major subsidiaries if it is an operating company
 3. Analysis per affiliate and business segment (repeat for each)
    - 3-N. [Affiliate or segment name]
      + Business: main products and services, market position
@@ -27,7 +27,7 @@ description: Use when reading a corporate disclosure document (half-year, quarte
 ## Earnings release analysis structure
 1. Summary: consolidated revenue, operating profit, and net income with year-over-year changes in 3-5 lines
 2. Consolidated results: a table of revenue, operating profit, and net income, with the drivers of change
-3. Results of major listed companies and affiliates: a table of revenue and operating profit per company, with the main points per company
+3. Results per business segment or major affiliate: a table of revenue and operating profit, with the main points per segment or affiliate
 4. Revenue drivers and profit drivers: organized by business segment
 5. Implications: indicators to watch in the next quarter
 

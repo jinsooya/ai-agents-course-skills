@@ -1,6 +1,6 @@
 ---
 name: writing-competitor-threat-report
-description: Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the group and its affiliates.
+description: Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the company and its affected affiliates or business segments.
 ---
 
 # Competitor Threat Analysis
@@ -13,8 +13,8 @@ description: Use when writing the web search plan for one competitor, or the thr
   3. Pricing policy and promotion changes
   4. Investment, partnerships, acquisitions, overseas expansion, and capacity expansion
   5. Market response, consumer response, and implications for results or share
-  6. Potential threats to the group and its affiliates
-  7. Response implications for the group and its affiliates
+  6. Potential threats to the company and its affected affiliates or business segments
+  7. Response implications for the company and its affected affiliates or business segments
 - End with a 3-column table: section / search queries / search purpose.
 - Do not run web searches in this step.
 
@@ -30,8 +30,8 @@ description: Use when writing the web search plan for one competitor, or the thr
 3. Product/service/channel/distribution strategy
 4. Pricing/promotion/brand strategy
 5. Investment/partnership/production/overseas expansion
-6. Potential threats to the group and its affiliates
-7. Response implications for the group and its affiliates
+6. Potential threats to the company and its affected affiliates or business segments
+7. Response implications for the company and its affected affiliates or business segments
 8. References
 
 End with a 4-column table: threat area / threat level (상/중/하) / evidence / implication for the company.
