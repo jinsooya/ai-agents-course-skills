@@ -24,37 +24,37 @@ ai-agents-course-skills/          # 로컬 폴더 이름은 달라도 된다
 
 ## 스킬 목록
 
-| 스킬 | 용도 | 사용하는 노트북 | ko | en |
-|---|---|---|---|---|
-| `writing-analysis-report` | 분석 결과를 `/report.md` 보고서로 정리한다 | 13 계열 공통 | O | O |
-| `plotting-charts` | pyplot으로 차트를 작성하고 결과 폴더에 저장한다 | 13 계열 공통 | O | O |
-| `analyzing-rfm` | RFM 분석으로 고객을 세분화하고 잠재 우수고객을 도출한다 | 13-02-1, 13-02-2 | O | O |
-| `estimating-clv` | 고객 생애가치(CLV)를 계산하고 등급별로 프로파일링한다 | 13-03 | O | O |
-| `analyzing-spending-patterns` | 제품군별·고객 특성별 소비 패턴을 분석한다 | 13-04 | O | O |
-| `analyzing-channel-preference` | 구매 채널 선호도와 채널 조합 패턴을 분석한다 | 13-05 | O | O |
-| `analyzing-price-sensitivity` | 할인 구매 비율로 가격 민감도 세그먼트를 분석한다 | 13-06 | O | O |
-| `analyzing-cross-sell` | 제품군 간 교차판매 점수와 타겟 고객을 도출한다 | 13-07 | O | O |
-| `comparing-campaign-effectiveness` | 캠페인별 수락률과 반응 패턴을 비교한다 | 13-08 | O | O |
-| `predicting-campaign-response` | 랜덤 포레스트 분류로 캠페인 반응을 예측한다 | 13-10 | O | O |
-| `predicting-churn-risk` | 랜덤 포레스트 분류로 고객 이탈 위험을 예측한다 | 13-11 | O | O |
-| `predicting-spending-from-demographics` | 랜덤 포레스트 회귀로 인구통계 기반 소비금액을 예측한다 | 13-12 | O | O |
-| `segmenting-customers-kmeans` | K-Means 군집화로 고객 세그먼트를 만든다 | 13-20 | O | O |
-| `detecting-outliers` | 결측치·이상값·이상치를 탐지하고 데이터를 정제한다 | 13-21 | O | O |
-| `analyzing-us-colleges` | 미국 대학 데이터를 비교·군집화·예측한다 | 13-30 | O | O |
-| `selecting-and-analyzing-segments` | 마케팅 캠페인의 세그먼트 후보 선정과 세그먼트 분석 보고서 | 14-1, 14-2 | O | O |
-| `writing-competitor-report` | 서브에이전트 조사 결과를 종합한 경쟁 기업 조사 보고서 | 14-1, 14-2 | O | O |
-| `writing-swot-differentiation` | SWOT 분석과 차별화 전략 보고서 | 14-1, 14-2 | O | O |
-| `planning-channel-content` | 채널 전략, 이미지 기획안, 영상 기획안 | 14-1, 14-2 | O | O |
-| `analyzing-company-disclosures` | 반기보고서와 실적발표 자료 같은 공시 문서를 계열사와 사업부문별로 분석한다 | CJ-GMP 2026, 삼성물산 2026 | O | O |
-| `researching-company-news` | 계열사별 뉴스 검색 계획서와 뉴스 분석 보고서 | CJ-GMP 2026, 삼성물산 2026 | O | O |
-| `writing-company-analysis-report` | 경쟁사 비교 섹션을 포함한 본사 기업 분석 보고서 | CJ-GMP 2026 | O | O |
-| `writing-competitor-threat-report` | 경쟁사 검색 계획서와 경쟁사 위협 분석 보고서 | CJ-GMP 2026, 삼성물산 2026 | O | O |
-| `writing-executive-comparison-report` | 경영진 보고용 경쟁사 비교 보고서(단일, 복수)와 이미지, 영상 기획안 | CJ-GMP 2026 | O | O |
-| `planning-competitive-scenarios` | 경제지 기사, 경쟁 전략 계획서, 대응 전략, 전략 워게임 | CJ-GMP 2026, 삼성물산 2026 | O | O |
-| `writing-segment-threat-report` | 사업부문별 위협 검색 계획서, 사업부문 위협 보고서, 위협 분석 종합 보고서 | 삼성물산 2026 | O | O |
-| `writing-business-strategy-report` | 공시, 뉴스, 위협 분석을 종합한 사업 분석 및 전략 보고서와 이미지, 영상 기획안 | 삼성물산 2026 | O | O |
-| `generating-monthly-sales-report` | Northwind 월간 매출 보고서를 작성한다 | 10-1-09 | O | O |
-| `checking-restock-status` | Northwind 재고 보충 대상을 점검한다 | 10-1-09 | O | O |
+| 스킬 | 용도 | ko | en |
+|---|---|---|---|
+| `writing-analysis-report` | 분석 결과를 `/report.md` 보고서로 정리한다 | O | O |
+| `plotting-charts` | pyplot으로 차트를 작성하고 결과 폴더에 저장한다 | O | O |
+| `analyzing-rfm` | RFM 분석으로 고객을 세분화하고 잠재 우수고객을 도출한다 | O | O |
+| `estimating-clv` | 고객 생애가치(CLV)를 계산하고 등급별로 프로파일링한다 | O | O |
+| `analyzing-spending-patterns` | 제품군별·고객 특성별 소비 패턴을 분석한다 | O | O |
+| `analyzing-channel-preference` | 구매 채널 선호도와 채널 조합 패턴을 분석한다 | O | O |
+| `analyzing-price-sensitivity` | 할인 구매 비율로 가격 민감도 세그먼트를 분석한다 | O | O |
+| `analyzing-cross-sell` | 제품군 간 교차판매 점수와 타겟 고객을 도출한다 | O | O |
+| `comparing-campaign-effectiveness` | 캠페인별 수락률과 반응 패턴을 비교한다 | O | O |
+| `predicting-campaign-response` | 랜덤 포레스트 분류로 캠페인 반응을 예측한다 | O | O |
+| `predicting-churn-risk` | 랜덤 포레스트 분류로 고객 이탈 위험을 예측한다 | O | O |
+| `predicting-spending-from-demographics` | 랜덤 포레스트 회귀로 인구통계 기반 소비금액을 예측한다 | O | O |
+| `segmenting-customers-kmeans` | K-Means 군집화로 고객 세그먼트를 만든다 | O | O |
+| `detecting-outliers` | 결측치·이상값·이상치를 탐지하고 데이터를 정제한다 | O | O |
+| `analyzing-us-colleges` | 미국 대학 데이터를 비교·군집화·예측한다 | O | O |
+| `selecting-and-analyzing-segments` | 마케팅 캠페인의 세그먼트 후보 선정과 세그먼트 분석 보고서 | O | O |
+| `writing-competitor-report` | 서브에이전트 조사 결과를 종합한 경쟁 기업 조사 보고서 | O | O |
+| `writing-swot-differentiation` | SWOT 분석과 차별화 전략 보고서 | O | O |
+| `planning-channel-content` | 채널 전략, 이미지 기획안, 영상 기획안 | O | O |
+| `analyzing-company-disclosures` | 반기보고서와 실적발표 자료 같은 공시 문서를 계열사와 사업부문별로 분석한다 | O | O |
+| `researching-company-news` | 계열사별 뉴스 검색 계획서와 뉴스 분석 보고서 | O | O |
+| `writing-company-analysis-report` | 경쟁사 비교 섹션을 포함한 본사 기업 분석 보고서 | O | O |
+| `writing-competitor-threat-report` | 경쟁사 검색 계획서와 경쟁사 위협 분석 보고서 | O | O |
+| `writing-executive-comparison-report` | 경영진 보고용 경쟁사 비교 보고서(단일, 복수)와 이미지, 영상 기획안 | O | O |
+| `planning-competitive-scenarios` | 경제지 기사, 경쟁 전략 계획서, 대응 전략, 전략 워게임 | O | O |
+| `writing-segment-threat-report` | 사업부문별 위협 검색 계획서, 사업부문 위협 보고서, 위협 분석 종합 보고서 | O | O |
+| `writing-business-strategy-report` | 공시, 뉴스, 위협 분석을 종합한 사업 분석 및 전략 보고서와 이미지, 영상 기획안 | O | O |
+| `generating-monthly-sales-report` | Northwind 월간 매출 보고서를 작성한다 | O | O |
+| `checking-restock-status` | Northwind 재고 보충 대상을 점검한다 | O | O |
 
 > Exercise와 Lab의 답에 해당하는 스킬은 이 공개 저장소에 올리지 않습니다. 
 
