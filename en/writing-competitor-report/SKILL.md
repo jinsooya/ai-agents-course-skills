@@ -9,7 +9,7 @@ description: Use when selecting competitors within the target segment and writin
 - First plan the competitor selection and research with write_todos, then proceed sequentially according to the plan.
 - Step 1: explore competitor candidates and select three to five by relevance to the target segment.
 - Step 2: for each selected company, call the competitor-researcher subagent once with the task tool.
-  Pass the company name and the save path /reports/03-competitors/<company-name-english-slug>.md.
+  Pass the company name and the save path `/reports/03-competitors/<company-name-english-slug>.md`.
   The subagent researches the items below and saves them to the file.
   + Company overview: founding background, size, business areas
   + Main products or services: core offerings, pricing policy, key features

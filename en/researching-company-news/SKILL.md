@@ -18,7 +18,7 @@ description: Use when planning news searches per affiliate and business segment 
 
 ## News collection procedure
 - Call the news-researcher subagent once per topic in the search plan with the task tool.
-- Pass only the topic name, the search plan path, and the save path /reports/04-news/<slug>.md. Do not copy the search plan text into the call.
+- Pass only the topic name, the search plan path, and the save path `/reports/04-news/<slug>.md`. Do not copy the search plan text into the call.
 - The subagent collects at least 3 recent news articles per topic and saves them in the article summary format below.
 
 ## Article summary format (for the subagent)

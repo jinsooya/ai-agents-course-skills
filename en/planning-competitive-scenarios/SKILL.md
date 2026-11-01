@@ -7,7 +7,7 @@ description: Use when writing a future-dated business newspaper article, the com
 
 ## Common rules
 - Write only after reading all input reports with read_file. Use web_search only when the input needs to be supplemented.
-- Mark the source of every factual statement as (출처: /reports/<file name>) or (출처: URL).
+- Mark the source of every factual statement as `(출처: /reports/<file name>)` or `(출처: URL)`.
 - Separate future outlooks and assumptions from facts, and label them as '가정' (assumption) or '시나리오' (scenario).
 - Output language: Korean; format: Markdown
 

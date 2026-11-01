@@ -12,7 +12,7 @@ description: Marketing Campaign 고객 데이터로 캠페인별 수락률, 수�
 ## 해석 전제
 
 캠페인 관련 컬럼(`AcceptedCmp1`~`AcceptedCmp5`, `Response`)은 아래만 전제로 해석하고 서술합니다.
-- `AcceptedCmp1`~`AcceptedCmp5`: 문서대로 1~5번째 캠페인에서 제안 수락 여부(1/0).
+- `AcceptedCmp1`부터 `AcceptedCmp5`까지: 문서대로 1-5번째 캠페인에서 제안 수락 여부(1/0).
 - `Response`: 문서대로 마지막 캠페인(the last campaign)에서 제안 수락 여부(1/0). 과거 1~5번 캠페인 지표와는 **별도 컬럼**으로 다룹니다.
 - `Response`와 `AcceptedCmp5`를 **같은 사건, 같은 컬럼**으로 취급하지 않습니다. 데이터상으로도 두 컬럼은 다르게 나타나는 고객이 많습니다.
 - 수락 비율은 컬럼마다 (값=1인 고객 수)/(전체 고객 수)로 계산했음을 밝히고, 일정, 오퍼 내용, 성패 원인 등은 추측하지 않습니다.
@@ -57,7 +57,7 @@ description: Marketing Campaign 고객 데이터로 캠페인별 수락률, 수�
 
 사전 처리:
 - Year_Birth로 나이를 계산 (기준연도: 2014)
-- Age를 구간으로 분류: 30대 이하(~39), 40대(40~49), 50대(50~59), 60대 이상(60+)
+- Age를 구간으로 분류: 30대 이하(39 이하), 40대(40-49), 50대(50-59), 60대 이상(60+)
 - TotalAccepted = AcceptedCmp1 + AcceptedCmp2 + AcceptedCmp3 + AcceptedCmp4 + AcceptedCmp5 + Response (각 열 0/1 합; Response는 과거 5개와 별도 열이므로 서로 다른 지표의 합으로 해석)
 - AnyAccepted = TotalAccepted > 0 (단 한 번이라도 수락한 고객)
 

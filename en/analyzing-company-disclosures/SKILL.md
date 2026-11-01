@@ -34,7 +34,7 @@ description: Use when reading a corporate disclosure document (half-year, quarte
 ## Output rules
 - Output language: Korean; format: Markdown
 - Use tables actively, and state the unit (KRW 100 million, KRW million, and so on) in every table.
-- Mark the source document of each figure and claim as (출처: /inputs/<file name>).
+- Mark the source document of each figure and claim as `(출처: /inputs/<file name>)`.
 - Save the report body to the assigned path with write_file, and reply with only the saved path and a 5-line summary.
 
 ## Prohibited

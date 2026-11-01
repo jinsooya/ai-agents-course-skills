@@ -15,7 +15,7 @@ description: Marketing Campaign 고객 데이터로 할인 구매 비율(DealRat
 
 1. 전체 행(고객 수)과 열(변수 수) 개수
 2. 채널 컬럼 4개(NumDealsPurchases, NumWebPurchases, NumCatalogPurchases, NumStorePurchases)의 기초 통계(평균, 중위수, 최솟값, 최댓값)
-3. NumDealsPurchases의 분포: 0회, 1~2회, 3~5회, 6회 이상 고객 수와 비율
+3. NumDealsPurchases의 분포: 0회, 1-2회, 3-5회, 6회 이상 고객 수와 비율
 4. Income 컬럼의 결측치 수 확인
 
 결과는 표 형태로 보기 좋게 출력하고, 주요 특징을 한국어로 2~3문장 요약하세요.
@@ -27,7 +27,7 @@ description: Marketing Campaign 고객 데이터로 할인 구매 비율(DealRat
    - TotalPurchases가 0인 경우 DealRatio = 0으로 처리
 3. DealRatio의 기초 통계(평균, 중위수, 표준편차, 최솟값, 최댓값) 출력
 4. DealRatio 분포를 히스토그램으로 시각화 (x축: 할인 구매 비율, y축: 고객 수, 구간: 20개)
-5. 구간별 고객 수: 0%, 1~20%, 21~40%, 41~60%, 61~80%, 81~100%
+5. 구간별 고객 수: 0%, 1-20%, 21-40%, 41-60%, 61-80%, 81-100%
 
 결과와 함께 할인 구매 비율 분포의 특징을 한국어로 설명하세요.
 
@@ -46,7 +46,7 @@ description: Marketing Campaign 고객 데이터로 할인 구매 비율(DealRat
 
 사전 처리:
 - Year_Birth로 나이를 계산하여 Age 컬럼 생성 (기준연도: 2014)
-- Age를 구간으로 분류: 30대 이하(~39), 40대(40~49), 50대(50~59), 60대 이상(60+)
+- Age를 구간으로 분류: 30대 이하(39 이하), 40대(40-49), 50대(50-59), 60대 이상(60+)
 - Income 결측치는 중위수로 대체
 
 분석 항목:

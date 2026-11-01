@@ -20,7 +20,7 @@ description: Use when planning threat searches per business segment of a multi-s
 
 ## Research procedure
 - Call the competitor-researcher subagent once per topic in the search plan with the task tool.
-- When calling it, pass only the topic name, the search plan path, the company's disclosure analysis report path, and the save path /reports/06-threats/<slug>.md. Do not copy file contents into the call.
+- When calling it, pass only the topic name, the search plan path, the company's disclosure analysis report path, and the save path `/reports/06-threats/<slug>.md`. Do not copy file contents into the call.
 - The subagent runs web_search with that topic's queries from the search plan and saves the report in the 'Segment threat report structure' below.
 - The main agent reads every saved file with read_file and consolidates them in the 'Consolidated threat report structure' below. If a topic is missing, call the same subagent once more to fill it in.
 
@@ -50,7 +50,7 @@ Always include this table in the threat priorities (keep the Korean column names
 
 ## Output rules
 - Output language: Korean; format: Markdown
-- Use only the input reports and web search results as sources. Mark evidence from an input report as (출처: /reports/<file name>) and evidence from the web as (출처: URL).
+- Use only the input reports and web search results as sources. Mark evidence from an input report as `(출처: /reports/<file name>)` and evidence from the web as `(출처: URL)`.
 - The goal is not to summarize news but to identify threat factors with quantitative and qualitative evidence and implications.
 - Use news articles, company IR materials and press releases, government and international organization materials, and industry research reports as evidence. Do not use user-edited sites such as Namuwiki or Wikipedia as evidence.
 - Minimize duplicate sources, use sources that complement each other, and balance Korean and global sources where possible.

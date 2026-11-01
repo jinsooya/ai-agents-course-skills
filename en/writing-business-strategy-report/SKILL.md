@@ -27,7 +27,7 @@ description: Use when consolidating the disclosure, news, and competitive threat
 ## Image plan structure
 - Input: the business analysis and strategy report
 - Write at least 3 plans for visuals to insert in the report. Each plan has:
-  1. Title: in the form '### 기획안 N: <title>'
+  1. Title: in the form `### 기획안 N: <title>`
   2. Placement: which section of the report it goes into
   3. Message: the single message the image conveys
   4. Visual concept: color, composition, mood, style
@@ -41,7 +41,7 @@ description: Use when consolidating the disclosure, news, and competitive threat
 - Input: the business analysis and strategy report
 - Write 3 plans for short mood videos to show with the report in executive briefings, internal sharing, or IR presentations. The videos convey the message through visuals and mood only, without any text elements such as letters, captions, or logos.
 - Each plan has:
-  1. Title: in the form '### 영상 기획안 N: <title>'
+  1. Title: in the form `### 영상 기획안 N: <title>`
   2. Placement: which section of the report or which briefing moment it is shown in
   3. Message: the single message the video conveys
   4. Video format: aspect ratio (16:9 recommended) and scene structure. The generation model decides the length, so keep the flow short, around 8 seconds.
@@ -57,7 +57,7 @@ description: Use when consolidating the disclosure, news, and competitive threat
 ## Output rules
 - Output language: Korean; format: Markdown (only the image and video prompts are in English)
 - Use tables actively, and state the unit (억원, 백만원, etc.) in every table.
-- Use only the input reports and web search results as sources. Mark evidence from an input report as (출처: /reports/<file name>) and evidence from the web as (출처: URL).
+- Use only the input reports and web search results as sources. Mark evidence from an input report as `(출처: /reports/<file name>)` and evidence from the web as `(출처: URL)`.
 
 ## Prohibited
 - Relying on pretrained knowledge or assumptions

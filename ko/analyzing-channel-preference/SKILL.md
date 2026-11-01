@@ -35,7 +35,7 @@ description: Marketing Campaign 고객 데이터로 웹·카탈로그·매장·�
 
 사전 처리:
 - Year_Birth로 나이를 계산하여 Age 컬럼 생성 (기준연도: 2014)
-- Age를 구간으로 분류: 30대 이하(~39), 40대(40~49), 50대(50~59), 60대 이상(60+)
+- Age를 구간으로 분류: 30대 이하(39 이하), 40대(40-49), 50대(50-59), 60대 이상(60+)
 - 총구매횟수(TotalPurchases) = NumWebPurchases + NumCatalogPurchases + NumStorePurchases + NumDealsPurchases
 - 주채널(PrimaryChannel): 4개 채널 중 가장 많이 이용한 채널 (동점이면 매장 우선)
 

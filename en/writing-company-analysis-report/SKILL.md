@@ -27,7 +27,7 @@ description: Use when consolidating the disclosure and news analyses into the co
 ## Output rules
 - Output language: Korean; format: Markdown
 - Use tables actively.
-- Use only the input reports and web search results as sources. Mark evidence from an input report as (출처: /reports/<file name>) and evidence from the web as (출처: URL).
+- Use only the input reports and web search results as sources. Mark evidence from an input report as `(출처: /reports/<file name>)` and evidence from the web as `(출처: URL)`.
 
 ## Prohibited
 - Relying on pretrained knowledge or assumptions
