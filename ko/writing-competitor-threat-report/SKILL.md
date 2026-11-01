@@ -1,6 +1,6 @@
 ---
 name: writing-competitor-threat-report
-description: 경쟁사 한 곳의 최근 동향과 본사와 관련 계열사 또는 사업부문에 대한 잠재적 위협을 분석하기 위한 웹 검색 계획서를 세우거나, 경쟁사 위협 분석 보고서를 작성할 때 사용합니다. Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the group and its affiliates.
+description: 경쟁사 한 곳의 최근 동향과 본사와 관련 계열사 또는 사업부문에 대한 잠재적 위협을 분석하기 위한 웹 검색 계획서를 세우거나, 경쟁사 위협 분석 보고서를 작성할 때 사용합니다. Use when writing the web search plan for one competitor, or the threat analysis report on that competitor's recent moves and its potential threats to the company and its affected affiliates or business segments.
 ---
 
 # 경쟁사 위협 분석
