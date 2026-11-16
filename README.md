@@ -55,6 +55,7 @@ ai-agents-course-skills/          # 로컬 폴더 이름은 달라도 된다
 | `writing-business-strategy-report` | 공시, 뉴스, 위협 분석을 종합한 사업 분석 및 전략 보고서와 이미지, 영상 기획안 | O | O |
 | `generating-monthly-sales-report` | Northwind 월간 매출 보고서를 작성한다 | O | O |
 | `checking-restock-status` | Northwind 재고 보충 대상을 점검한다 | O | O |
+| `reviewing-monthly-kiosk-sales` | 릴코너 키오스크 대여 데이터의 월간 리뷰 보고서와 차트를 작성한다 | O | O |
 
 > Exercise와 Lab의 답에 해당하는 스킬은 이 공개 저장소에 올리지 않습니다. 
 
