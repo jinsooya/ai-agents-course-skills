@@ -10,7 +10,7 @@ calendar month before today's date.
 
 **Step 2: Overview** - Get total revenue (`SUM` of `payment.amount`) and the number of
 rentals (`COUNT DISTINCT payment.rental_id`) for the month and for the month before.
-Compute the month-over-month change in percent with the eval tool.
+Compute the month-over-month change in percent with the `eval` tool.
 Also count the days that have payments in each month (`COUNT DISTINCT date(payment_date)`).
 If the two months have different numbers of days with data, say so next to the change,
 because the change then reflects data coverage as well as demand.
@@ -18,7 +18,7 @@ because the change then reflects data coverage as well as demand.
 **Step 3: Breakdowns** - Get revenue by film language, revenue by category, and the
 top 5 actors by revenue for the month, each sorted high to low.
 
-**Step 4: Chart** - Call render_bar_chart with the revenue by language and save it
+**Step 4: Chart** - Call `render_bar_chart` with the revenue by language and save it
 as `/output/revenue-by-language-<YYYY-MM>.png`.
 
 ## Output

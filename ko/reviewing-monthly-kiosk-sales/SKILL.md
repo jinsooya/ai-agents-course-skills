@@ -9,14 +9,14 @@ description: 릴코너(Reel Corner) 키오스크 대여 데이터의 월간 리�
 마지막 온전한 달을 사용하세요.
 
 **2단계: 개요** - 해당 월과 전월의 총매출(`payment.amount`의 합)과 대여 건수
-(`payment.rental_id`를 중복 없이 센 수)를 구하세요. 전월 대비 증감률은 eval 도구로 계산하세요.
+(`payment.rental_id`를 중복 없이 센 수)를 구하세요. 전월 대비 증감률은 `eval` 도구로 계산하세요.
 각 달의 결제 기록이 있는 날의 수(`COUNT DISTINCT date(payment_date)`)도 세세요.
 두 달의 기록 일수가 다르면, 증감률이 수요뿐 아니라 기록 범위의 차이도 반영한다는 점을 증감률 옆에 밝히세요.
 
 **3단계: 세부 분석** - 해당 월의 언어별 매출, 장르별 매출, 배우별 매출 상위 5명을
 각각 높은 순서대로 구하세요.
 
-**4단계: 차트** - 언어별 매출로 render_bar_chart를 호출하여
+**4단계: 차트** - 언어별 매출로 `render_bar_chart`를 호출하여
 `/output/revenue-by-language-<YYYY-MM>.png`로 저장하세요.
 
 ## 출력
