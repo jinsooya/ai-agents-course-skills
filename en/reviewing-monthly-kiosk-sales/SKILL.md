@@ -25,7 +25,9 @@ as `/output/revenue-by-language-<YYYY-MM>.png`.
 
 Write `/output/monthly-review-<YYYY-MM>.md` in the language of the user's request with
 these sections in order: Overview, Revenue by Language, Revenue by Category,
-Top Actors, So what. Amounts are in USD with two decimals and thousands separators.
+Top Actors, So what. Keep these section headings in English exactly as written, even
+when the rest of the report is in another language. Amounts are in USD with two
+decimals and thousands separators.
 Embed the chart with a Markdown image link. Under Top Actors, state that actor
 revenues overlap and must not be added up. The So what section has two or three
 bullets a manager can act on.

@@ -23,6 +23,7 @@ description: 릴코너(Reel Corner) 키오스크 대여 데이터의 월간 리�
 
 사용자 요청의 언어로 `/output/monthly-review-<YYYY-MM>.md`를 작성하세요.
 절 구성은 Overview, Revenue by Language, Revenue by Category, Top Actors, So what 순서입니다.
+보고서의 언어와 관계없이 절 제목은 이 영어 이름을 그대로 사용하세요.
 금액은 달러이며 소수점 둘째 자리와 천 단위 구분 기호를 사용하세요.
 차트는 마크다운 이미지 링크로 넣으세요. Top Actors 절에는 배우별 매출이 서로 겹치므로
 더하면 안 된다는 점을 밝히세요. So what 절에는 관리자가 실행할 수 있는 항목을 두세 개 작성하세요.
